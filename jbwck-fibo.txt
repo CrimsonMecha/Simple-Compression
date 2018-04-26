@@ -1,0 +1,21 @@
+Source string:
+010110111011000110110101
+
+Target string output by jabber:
+0 01 011 100 0101 1001 1000 0111 10000 0110
+
+Table (built on-the-fly by jabber):
+index	string	bit-length
+0		""		0
+1		"0"		1
+2		"1"		2
+3		"01"	2
+4		"10"	3
+5		"11"	3
+6		"101"	3
+7		"100"	3
+8		"011"	4
+9		"0110"	4
+
+Wocky should reverse the above.
+
